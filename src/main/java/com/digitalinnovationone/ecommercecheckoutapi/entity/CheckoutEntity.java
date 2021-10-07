@@ -1,18 +1,17 @@
 package com.digitalinnovationone.ecommercekafkaproject.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+//@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-@Data
+@Getter
+@Setter
+@ToString
 @Entity
 public class CheckoutEntity {
 

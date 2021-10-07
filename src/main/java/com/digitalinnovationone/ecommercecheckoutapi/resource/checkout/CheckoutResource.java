@@ -1,6 +1,7 @@
 package com.digitalinnovationone.ecommercekafkaproject.resource.checkout;
 
 import com.digitalinnovationone.ecommercekafkaproject.service.CheckoutService;
+import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,14 +9,18 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/v1/checkout")
-@RequiredArgsConstructor
+//@RequiredArgsConstructor
 public class CheckoutResource {
 
-    private final CheckoutService chekcoutService;
+    private final CheckoutService checkoutService;
+
+    public CheckoutResource(CheckoutService checkoutService) {
+        this.checkoutService = checkoutService;
+    }
 
     public ResponseEntity<Void> create(CheckoutRequest checkoutRequest) {
 
-        chekcoutService.create(checkoutRequest);
+        checkoutService.create(checkoutRequest);
 
         return ResponseEntity.ok().build();
     }
