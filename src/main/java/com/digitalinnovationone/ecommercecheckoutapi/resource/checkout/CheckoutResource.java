@@ -1,8 +1,6 @@
-package com.digitalinnovationone.ecommercekafkaproject.resource.checkout;
+package com.digitalinnovationone.ecommercecheckoutapi.resource.checkout;
 
-import com.digitalinnovationone.ecommercekafkaproject.service.CheckoutService;
-import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
+import com.digitalinnovationone.ecommercecheckoutapi.service.CheckoutService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

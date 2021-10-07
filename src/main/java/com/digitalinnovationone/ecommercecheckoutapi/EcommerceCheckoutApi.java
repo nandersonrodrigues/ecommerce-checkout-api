@@ -1,4 +1,4 @@
-package com.digitalinnovationone.ecommercekafkaproject;
+package com.digitalinnovationone.ecommercecheckoutapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

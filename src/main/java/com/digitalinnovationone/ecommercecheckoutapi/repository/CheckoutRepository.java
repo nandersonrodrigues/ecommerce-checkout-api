@@ -1,6 +1,6 @@
-package com.digitalinnovationone.ecommercekafkaproject.repository;
+package com.digitalinnovationone.ecommercecheckoutapi.repository;
 
-import com.digitalinnovationone.ecommercekafkaproject.entity.CheckoutEntity;
+import com.digitalinnovationone.ecommercecheckoutapi.entity.CheckoutEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

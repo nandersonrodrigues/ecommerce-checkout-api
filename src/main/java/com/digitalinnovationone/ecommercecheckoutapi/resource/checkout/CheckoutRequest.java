@@ -1,4 +1,4 @@
-package com.digitalinnovationone.ecommercekafkaproject.resource.checkout;
+package com.digitalinnovationone.ecommercecheckoutapi.resource.checkout;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

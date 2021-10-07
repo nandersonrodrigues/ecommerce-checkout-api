@@ -1,7 +1,7 @@
-package com.digitalinnovationone.ecommercekafkaproject.service;
+package com.digitalinnovationone.ecommercecheckoutapi.service;
 
-import com.digitalinnovationone.ecommercekafkaproject.entity.CheckoutEntity;
-import com.digitalinnovationone.ecommercekafkaproject.resource.checkout.CheckoutRequest;
+import com.digitalinnovationone.ecommercecheckoutapi.entity.CheckoutEntity;
+import com.digitalinnovationone.ecommercecheckoutapi.resource.checkout.CheckoutRequest;
 
 import java.util.Optional;
 
